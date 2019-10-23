@@ -1,2 +1,4 @@
 ---
-# defaults file for ansible_role_grub
+grub_display: console
+grub_timeout: 5
+grub_recordfail_timeout: 5

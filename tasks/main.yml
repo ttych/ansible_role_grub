@@ -1,2 +1,5 @@
 ---
-# tasks file for ansible_role_grub
+
+- include: context.yml
+
+- include: grub_configuration.yml
